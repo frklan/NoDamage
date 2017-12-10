@@ -1,0 +1,6 @@
+name: NoDamage
+main: com.yellowfortyfour.spigot.nodamage.NoDamagePlugin
+version: 0.0.1-SNAPSHOT
+author: Fredrik Andersson (ProtonCavor)
+
+#commands:
