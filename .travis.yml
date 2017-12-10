@@ -1,0 +1,16 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+  provider: releases
+  api_key:
+    secure: UBuP4N33meY6LzIKdTG2YtLlmbk3Mak9liSH+axtAGSmG6+4Dcu8R7BPJFVuGXiP5QQEz++3Efw8RCufpC/y2tjDVbCxItLEYQCfe5EVPmktLu88/g9EvWluDb3GicA6fzyF2u1MBABBkvVjZ7qkmkrVY1G1E6+B+ko+G93fbDS1Ablvzd+bS7YuirmcDtk1Grwdmcwm2soS9nHjYxi7h/xdY9CoIuj/C6ovo8LU1h9R9gIo2bOuOkmwgrw+43q5oKbx/Blh62A9RyC7rtVW0jop40JGFMY2elzQg6ePcuZG3olI9gMfSrOfs537iLa/+WYJxpaChU4bSmRQc3gk76b2M5nDRWvf4pgWjwk8BWr9qxDz9/V5UT7TfsVqiDZut7+QkB/V11IwQ0RG2vqGHUraugjMsxJtp9lLFz7d3gIJfs0PP/nW887IQ8HD9aOXGLhPYvtoPJLfq+FGyJZAArAxaY6VHroXFHEVU6s2J6nRwf29q4lVscPSf8sS+GpW7sVwuItgXCghM0xz0bSLdKI78i5NMS0vQxUMqDu3x8S3bNObOiBzgIPczhb1vtYcN80XgC3oCsIBBa7PfRG1GDDdhc5F0e0eaA94wqQpxpAgsPqM5dW6eDR7hJJlp3ROuag/2QLyZL1XoVAgBqrHHzMgGGbD/c914f7EuiU/eII=
+  file: "$TRAVIS_BUILD_DIR/target/NoDamage*.jar"
+  skip_cleanup: true
+  on:
+    repo: frklan/NoDamage
+    tags: true
+notifications:
+  email:
+    on_success: never
+    on_failure: change
