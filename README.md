@@ -41,7 +41,7 @@ No permission needed.
 
 ## Plugin Stats
 
-The plugin is using the [bStat](https://github.com/BtoBastian/bStats-Metrics) metric classes by [Bastian Oppermann](https://github.com/BtoBastian) to gather a bunch of usage statistics. See this [link](https://bstats.org/plugin/xxx) for current up to date data.
+The plugin is using the [bStat](https://github.com/BtoBastian/bStats-Metrics) metric classes by [Bastian Oppermann](https://github.com/BtoBastian) to gather a bunch of usage statistics. See this [link](https://bstats.org/plugin/bukkit/NoDamage) for current up to date data.
 
 ## Contributing
 
