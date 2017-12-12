@@ -9,6 +9,7 @@ public class NoDamagePlugin extends JavaPlugin
 	@Override
 	public void onEnable()
 	{
+		@SuppressWarnings("unused")
 		Metrics metrics = new Metrics(this);
 		
 		Bukkit.getServer().getPluginManager().registerEvents(new HealthListener(), this);
