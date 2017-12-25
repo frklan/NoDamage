@@ -13,5 +13,6 @@ public class NoDamagePlugin extends JavaPlugin
 		Metrics metrics = new Metrics(this);
 		
 		Bukkit.getServer().getPluginManager().registerEvents(new HealthListener(), this);
+		Bukkit.getServer().getPluginManager().registerEvents(new PlayerGlow(), this);
 	}
 }

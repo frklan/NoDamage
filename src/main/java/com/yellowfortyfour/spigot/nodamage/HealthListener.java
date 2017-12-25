@@ -17,12 +17,8 @@ public class HealthListener implements Listener
 		
 		player.setInvulnerable(true);
 		
-		
-		/* Testing a few methods.. */
-		if(player.isOp())
-			player.setGlowing(true);
-		
-		player.setCanPickupItems(false);
+		if(!player.isOp())
+			player.setCanPickupItems(false);
 	}
 }
 

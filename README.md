@@ -37,7 +37,7 @@ Copy the jar file from ```target``` to your spigot server's plugin folder.
 Copy the jar file to your server's plugin folder and restart the server.
 
 ### Permissions
-No permission needed.
+Health is keept at max without any permission (remove plugin to disable), if the user has ```nodamage.glow``` set to true he/she will be glowing.
 
 ## Plugin Stats
 

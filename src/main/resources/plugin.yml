@@ -1,6 +1,20 @@
 name: NoDamage
 main: com.yellowfortyfour.spigot.nodamage.NoDamagePlugin
-version: 0.0.1-SNAPSHOT
+version: 0.0.1-SNAPSHOT-2
 author: Fredrik Andersson (ProtonCavor)
 
 #commands:
+
+
+permissions:
+  nodamage.*:
+    description: Defaulting all to false
+    default: false        
+  nodamage.all:
+    default: false
+    description: All permissions.
+    children:
+      nodamage.glow: true
+  nodamage.glow:
+    description: Make player glow
+    default: false
