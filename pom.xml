@@ -4,7 +4,7 @@
   
   <groupId>com.yellowfortyfour.spigot</groupId>
   <artifactId>NoDamage</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT-2</version>
   <packaging>jar</packaging>
   
   <name>NoDamage</name>
